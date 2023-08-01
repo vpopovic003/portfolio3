@@ -318,6 +318,7 @@ section {
 
 #experience {
   position: relative;
+  height: 70vh;
 }
 
 .experience-sub-title {
@@ -345,7 +346,7 @@ section {
 article {
   display: flex;
   width: 10rem;
-  justify-content: space-around;
+  justify-content: baseline;
   gap: 0.5rem;
 }
 
@@ -357,12 +358,14 @@ article .icon {
 
 #projects {
   position: relative;
+  height: 190vh;
 }
 
 .projects-container {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
+  align-items: stretch;
 }
 
 .color-container {
@@ -381,7 +384,12 @@ article .icon {
   color: black;
 }
 
+.project-paragraph {
+  margin: 1rem;
+}
+
 .project-btn {
+  margin-top: 20px;
   color: black;
   border-color: rgb(163, 163, 163);
 }
