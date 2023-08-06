@@ -98,34 +98,33 @@
   }
 }
 
-/* @media screen and (min-width: 1200px) and (max-width: 1400px){
+@media screen and (min-width: 1200px) and (max-width: 1400px){
   #projects {
-    height: 600vh;
+    height: 700vh;
   }
 
   #experience {
-    height: 110vh;
+    height: 70vh;
   }
 }
 
-
 @media screen and (min-width: 600px) and (max-width: 1200px){
   #projects {
-    height: 870vh;
+    height: 400%;
   }
 
   #experience {
-    height: 110vh;
+    height: 90vh;
   }
 }
 
 @media screen and (max-width: 600px) {
   #projects {
-    height: 900vh;
+    height: 800%;
   }
 
   #experience {
     height: 150vh;
   }
 
-} */
+}
