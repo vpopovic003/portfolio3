@@ -13,9 +13,9 @@
       <div class="logo">Vladimir Popovic</div>
       <div>
         <ul class="nav-links">
-          <li><a href="#about">About</a></li>
-          <li><a href="#experience">Experience</a></li>
           <li><a href="#projects">Projects</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#about">About</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
       </div>
@@ -29,9 +29,9 @@
           <span></span>
         </div>
         <div class="menu-links">
-          <li><a href="#about" onclick="toggleMenu()">About</a></li>
-          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
           <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
           <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
         </div>
       </div>
@@ -71,46 +71,291 @@
         </div>
       </div>
     </section>
-    <section id="about">
-      <p class="section__text__p1">Get To Know More</p>
-      <h1 class="title">About Me</h1>
-      <div class="section-container">
-        <div class="section__pic-container">
-          <img
-            src="./assets/about-pic.jpg"
-            alt="Profile picture"
-            class="about-pic"
-          />
-        </div>
-        <div class="about-details-container">
-          <div class="about-containers">
-            <div class="details-container">
+
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
               <img
-                src="./assets/experience.png"
-                alt="Experience icon"
-                class="icon"
+                src="./assets/project-gitarologia.png"
+                width="500px"
+                height="500px"
+                alt="Project 1"
+                class="project-img"
               />
-              <h3>Experience</h3>
-              <p>2+ years <br />Frontend Development</p>
             </div>
-            <div class="details-container">
-              <img
-                src="./assets/education.png"
-                alt="Education icon"
-                class="icon"
-              />
-              <h3>Courses</h3>
-              <p>The Complete Web Developer 2023 - Udemy<br />CS50 Introduction to Computer Science - Harvardx<br />Introduction to Computer Science using Python - MITx<br />C Programming - Tim Buchalka's academy</p>
+            <h2 class="experience-sub-title project-title">Gitarologia</h2>
+            <p class="project-paragraph">Web School full stack application. Startup. Demo page available.</p>
+            <h3>Stack</h3>
+            <p>Next.js/ReactJS</p>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('https://gitarologia-34fg3qdnw-makragic.vercel.app/')"
+              >
+                Live
+              </button>
             </div>
           </div>
-          <div class="text-container">
-            <p>
-              My name is Vladimir Popovic.
-I am a web developer. Some time ago I decided to pursue the path of development and switch my career. I worked on numerous projects, some of which included developing software and tools for client needs. At the moment I work on a startup called Gitarologia, which is being created using Next.js. I mainly focus on front end development, but I also possess very solid knowledge of Python and C programming languages. My goal is to expand my knowledge, to Back End development as well, and learn anything else from the field of Computer Science that will compliment me to become a great engineer.
-            </p>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-plus50x.png"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Plus50x</h2>
+            <p class="project-paragraph">Full stack application. Web School for Harvard's CS50 course.</p>
+            <h3>Stack</h3>
+            <p>Flask/SQLite</p>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('https://github.com/vpopovic003/plus50x')"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('https://www.youtube.com/watch?v=tWOz693ZLHE')"
+              >
+                Video Demo
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('https://plus50x.onrender.com/')"
+              >
+                Live
+              </button>
+            </div>
           </div>
-        </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-face-brain.png"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Face-Brain</h2>
+            <p class="project-paragraph">Full stack application. Detects faces in photos using Clarifai API and stores users and entries in a database.</p>
+            <h3>Stack</h3>
+            <p>ReactJS</p>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('https://github.com/vpopovic003/face-brain')"
+              >
+                Github (Front)
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('https://github.com/vpopovic003/face-brain-api')"
+              >
+                Github (Back)
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('https://face-brain-8dja.onrender.com/')"
+              >
+                Live
+              </button>
+            </div>
+          </div>    
+        </div>     
       </div>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-restaurant.png"
+                width="500px"
+                height="500px"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Restaurant Page</h2>
+            <p class="project-paragraph">A front page for restaurants or fast food businesses.</p>
+            <h3>Stack</h3>
+            <p>ReactJS</p>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('https://github.com/vpopovic003/restaurant-page/')"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('https://vpopovic003.github.io/restaurant-page/')"
+              >
+                Live
+              </button>
+            </div>
+          </div>
+          
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-robofriends.png"
+                width="500px"
+                height="500px"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Robofriends</h2>
+            <p class="project-paragraph">This application generates random robot images fetched from API.</p>
+            <h3>Stack</h3>
+            <p>ReactJS</p>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('https://github.com/vpopovic003/robofriends')"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('https://vpopovic003.github.io/robofriends/')"
+              >
+                Live
+              </button>
+            </div>
+          </div>
+
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-anitrone.png"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Anitrone</h2>
+            <p class="project-paragraph">Windows application that animates various elements and exports the animation in mp4 format.</p>
+            <h3>Stack</h3>
+            <p>Python/PyQT</p>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('https://github.com/vpopovic003/anitrone-python')"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('https://drive.google.com/file/d/176ayloh-4kPHM3DLrq2thMoiO5AASAY9/view')"
+              >
+                Download
+              </button>
+            </div>
+          </div>        
+        </div>     
+      </div>
+
+      <div class="experience-details-container">
+        <div class="about-containers">
+
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-anitroneweb.png"
+                width="500px"
+                height="500px"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Anitrone Web</h2>
+            <p class="project-paragraph">Demo for Anitrone Windows app. Click on elements to change their shape, and press play for animation.</p>
+            <h3>Stack</h3>
+            <p>HTML/CSS/JavaScript</p>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('https://github.com/vpopovic003/anitrone-web')"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('https://vpopovic003.github.io/anitrone-web/')"
+              >
+                Live
+              </button>
+            </div>
+          </div>
+          
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-chordbox.png"
+                width="500px"
+                height="500px"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Chordbox</h2>
+            <p class="project-paragraph">A small web app that creates guitar chord tabs, and exports them as PNG.</p>
+            <h3>Stack</h3>
+            <p>HTML/CSS/JavaScript</p>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('https://github.com/vpopovic003/chordbox')"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('https://vpopovic003.github.io/chordbox/')"
+              >
+                Live
+              </button>
+            </div>
+          </div>
+          
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-codekeen.png"
+                width="500px"
+                height="500px"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Code Keen</h2>
+            <p class="project-paragraph">Website with 90s aesthetics. A fun project.</p>
+            <h3>Stack</h3>
+            <p>HTML/CSS/JavaScript</p>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('https://github.com/vpopovic003/codekeen')"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('https://vpopovic003.github.io/codekeen/')"
+              >
+                Live
+              </button>
+            </div>
+          </div>      
+        </div>     
+      </div>       
+
+      
       <img
         src="./assets/arrow.png"
         alt="Arrow icon"
@@ -153,16 +398,6 @@ I am a web developer. Some time ago I decided to pursue the path of development 
                   class="icon"
                 />
                 <div>
-                  <h3>SASS</h3>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
                   <h3>JavaScript</h3>
                 </div>
               </article>
@@ -174,16 +409,6 @@ I am a web developer. Some time ago I decided to pursue the path of development 
                 />
                 <div>
                   <h3>ReactJS</h3>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Next.js</h3>
                 </div>
               </article>
             </div>
@@ -228,7 +453,7 @@ I am a web developer. Some time ago I decided to pursue the path of development 
                   class="icon"
                 />
                 <div>
-                  <h3>C</h3>
+                  <h3>SASS</h3>
                 </div>
               </article>
             </div>
@@ -239,188 +464,49 @@ I am a web developer. Some time ago I decided to pursue the path of development 
         src="./assets/arrow.png"
         alt="Arrow icon"
         class="icon arrow"
-        onclick="location.href='./#projects'"
+        onclick="location.href='./#about'"
       />
     </section>
-    <section id="projects">
-      <p class="section__text__p1">Browse My Recent</p>
-      <h1 class="title">Projects</h1>
-      <div class="experience-details-container">
-        <div class="about-containers">
-          <div class="details-container color-container">
-            <div class="article-container">
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/about-pic.jpg"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
               <img
-                src="./assets/project-gitarologia.png"
-                width="500px"
-                height="500px"
-                alt="Project 1"
-                class="project-img"
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
               />
+              <h3>Experience</h3>
+              <p>2+ years <br />Frontend Development</p>
             </div>
-            <h2 class="experience-sub-title project-title">Gitarologia</h2>
-            <p class="project-paragraph">This is a startup project. Gitarologia is a platform that will provide comprehensive guitar courses to anyone who wants to learn. The approach is on a new proven metodology of teaching popular guitar.</p>
-            <h3>Stack</h3>
-            <p>Next.js/ReactJS</p>
-            <div class="btn-container">
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="window.open('https://gitarologia-34fg3qdnw-makragic.vercel.app/')"
-              >
-                Live Demo
-              </button>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Courses</h3>
+              <p>The Complete Web Developer 2023 - Udemy<br />CS50 Introduction to Computer Science - Harvardx<br />Introduction to Computer Science using Python - MITx<br />C Programming - Tim Buchalka's academy</p>
             </div>
           </div>
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                src="./assets/project-plus50x.png"
-                alt="Project 2"
-                class="project-img"
-              />
-            </div>
-            <h2 class="experience-sub-title project-title">Plus50x</h2>
-            <p class="project-paragraph">The final project for Hardvard's CS50 - Introduction to Computer Science course. This is a redesign of Hardvard's learning platform, design with the idea of making all courses and materials easy to access.</p>
-            <h3>Stack</h3>
-            <p>Flask/SQLite</p>
-            <div class="btn-container">
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="window.open('https://github.com/vpopovic003/plus50x')"
-              >
-                Github
-              </button>
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="window.open('https://www.youtube.com/watch?v=tWOz693ZLHE')"
-              >
-                Video Demo
-              </button>
-            </div>
+          <div class="text-container">
+            <p>
+              My name is Vladimir Popovic.
+I am a frontend web developer. Some time ago I decided to pursue the path of development and switch my career. I worked on numerous projects, some of which included developing software and tools for client needs. At the moment I work on a startup called Gitarologia, which is being created using Next.js. I mainly focus on front end development, but I also possess fundamental knowledge of OOP and Python language, and basic C knowledge. I finished courses such as Hardvard's "CS50 - Introduction to Computer Science", MIT's "Introduction to Computer Science using Python" and "C Programming" by Tim Buchalka's academy. My goal is to expand my knowledge, to Back End development as well, and learn anything else from the field of Computer Science that will compliment me to become a solid engineer.
+            </p>
           </div>
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                src="./assets/project-robofriends.png"
-                width="500px"
-                height="500px"
-                alt="Project 1"
-                class="project-img"
-              />
-            </div>
-            <h2 class="experience-sub-title project-title">Robofriends</h2>
-            <p class="project-paragraph">This is a learning project for course 'The Complete Web Developer: Zero to Mastery.' The application generates robot images fetched from JSON data using API, and allow a user to search through them.</p>
-            <h3>Stack</h3>
-            <p>ReactJS</p>
-            <div class="btn-container">
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="window.open('https://github.com/vpopovic003/robofriends')"
-              >
-                Github
-              </button>
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="window.open('https://vpopovic003.github.io/robofriends/')"
-              >
-                Live Demo
-              </button>
-            </div>
-          </div>
-          
-        </div>     
+        </div>
       </div>
-
-      <div class="experience-details-container">
-        <div class="about-containers">
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                src="./assets/project-face-brain.png"
-                alt="Project 3"
-                class="project-img"
-              />
-            </div>
-            <h2 class="experience-sub-title project-title">Face-Brain</h2>
-            <p class="project-paragraph">An app that detect faces in photos using Clarifai API. Paste photo URL and the face will be detected in the area bellow.</p>
-            <h3>Stack</h3>
-            <p>ReactJS</p>
-            <div class="btn-container">
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="window.open('https://github.com/vpopovic003/face-brain')"
-              >
-                Github
-              </button>
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="window.open('https://vpopovic003.github.io/face-brain/')"
-              >
-                Live Demo
-              </button>
-            </div>
-          </div>
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                src="./assets/project-chordbox.png"
-                width="500px"
-                height="500px"
-                alt="Project 1"
-                class="project-img"
-              />
-            </div>
-            <h2 class="experience-sub-title project-title">Chordbox</h2>
-            <p class="project-paragraph">This is a web app made for client needs, and is used making guitar chord diagrams. You can select fingers and then export the image in PNG format.</p>
-            <h3>Stack</h3>
-            <p>HTML/CSS/JavaScript</p>
-            <div class="btn-container">
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="window.open('https://github.com/vpopovic003/chordbox')"
-              >
-                Github
-              </button>
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="window.open('https://vpopovic003.github.io/chordbox/')"
-              >
-                Live Demo
-              </button>
-            </div>
-          </div>
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                src="./assets/project-anitrone.png"
-                alt="Project 2"
-                class="project-img"
-              />
-            </div>
-            <h2 class="experience-sub-title project-title">Anitrone</h2>
-            <p class="project-paragraph">Windows software developed for client needs. This application animates elements in the metronome time, and exports the animation in mp4 format.</p>
-            <h3>Stack</h3>
-            <p>Python/PyQT</p>
-            <div class="btn-container">
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="window.open('https://github.com/vpopovic003/anitrone-python')"
-              >
-                Github
-              </button>
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="window.open('https://drive.google.com/file/d/176ayloh-4kPHM3DLrq2thMoiO5AASAY9/view')"
-              >
-                Download
-              </button>
-            </div>
-          </div>
-        </div>     
-      </div>
-          
-        </div>     
-      </div>
-      
       <img
         src="./assets/arrow.png"
         alt="Arrow icon"
@@ -428,6 +514,8 @@ I am a web developer. Some time ago I decided to pursue the path of development 
         onclick="location.href='./#contact'"
       />
     </section>
+    
+
     <section id="contact">
       <p class="section__text__p1">Get in Touch</p>
       <h1 class="title">Contact Me</h1>

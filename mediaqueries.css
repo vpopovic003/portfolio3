@@ -97,3 +97,35 @@
     text-align: justify;
   }
 }
+
+/* @media screen and (min-width: 1200px) and (max-width: 1400px){
+  #projects {
+    height: 600vh;
+  }
+
+  #experience {
+    height: 110vh;
+  }
+}
+
+
+@media screen and (min-width: 600px) and (max-width: 1200px){
+  #projects {
+    height: 870vh;
+  }
+
+  #experience {
+    height: 110vh;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #projects {
+    height: 900vh;
+  }
+
+  #experience {
+    height: 150vh;
+  }
+
+} */
